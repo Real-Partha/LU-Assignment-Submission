@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding:1px;
+}
+
+.Parent{
+    background-color: red;
+    width: 100%;
+}
+
+.Child{
+    background-color: yellow;
+    height: 300px;
+    width: 19%;
+    margin: 0.5px;
+    display: inline-block;
+
+}
+
+/*Media Queries for Mobile Phones*/
+
+@media (max-width : 480px){
+    .Child{
+        width: 100% 
+    }
+
+}
